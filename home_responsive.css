@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+}
+.top_section{
+    margin-bottom: 15px;
+}
+.image_part{
+    padding-left:0;
+    padding-right:0;
+    width: 100%;
+    height:430px;
+}
+.image_part img{
+    width:100%;
+    height:430px;
+    object-fit:cover;
+}
+.login_section{
+    position: absolute;
+    top:25px;
+    right: 20px;
+}
+.login_section .login{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 18px;
+}
+.login_section .account{
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 3px;
+    font-size: 18px;
+}   
+.overlap_text{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    width: 100%;
+}
+.overlap_text .logo{
+    background-color: #fff;
+    width: 90px;
+    height: 90px;
+    border-radius:100%;
+    margin:auto;
+    font-size:60px;
+    line-height:1.2;
+    color:red;
+    font-weight: 600;
+}
+.overlap_text .text{
+    font-size:40px;
+    color: #fff;
+    font-weight: 600;
+    margin:10px 0px 10px 0px;
+}
+.top_section .overlap_text .location{
+    width:100%;
+}
+.overlap_text .select_box{
+    height: 50px;
+    width:285px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.overlap_text .row2{
+    position: relative;
+}
+.overlap_text .icon{
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    font-size: 17px;
+}
+.overlap_text .input_box{
+    height: 50px;
+    width: 306px;
+    padding-left: 44px;
+    font-size: 18px;
+}
+.bottom_section .bottom_part h1{
+    color: #192f60;
+    letter-spacing: -1px;
+    font-weight: bolder;
+}
+.bottom_section .bottom_part h3{
+    /* font-size: 27px; */
+    font-weight: 400;
+    font-size: 23px;
+    color: #8c96ab;
+}
+.bottom_section .bottom_part .column_box{
+    margin-top: 40px;
+}
+.bottom_section .bottom_part .box{
+    background-color:#fff;
+    margin: 10px;
+    height: 160px;
+    width:360px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    position: relative;
+}
+.bottom_section .bottom_part .box  img{
+    width:160px;
+    height: 160px;
+    object-fit: cover;
+}
+.bottom_section .bottom_part .box .text_left{
+    position: absolute;
+    top: 17%;
+    left: 53%;
+}
+.bottom_section .bottom_part .box .text_left h4{
+    color: #192f60;
+}
+.bottom_section .bottom_part .box .text_left p{
+    color: #8c96ab;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px){
+    .overlap_text .icon{
+        top:35%;
+        left: 37%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
